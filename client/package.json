@@ -20,7 +20,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage": "https://github.com/jonahlindsley/react-portfolio",
+  "homepage": "https://jonahlindsley.github.io/react-portfolio",
   "eslintConfig": {
     "extends": [
       "react-app",

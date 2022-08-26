@@ -2,7 +2,6 @@ import logo from './logo.svg';
 import { useState } from 'react';
 
 function App() {
-  let [title, setTitle] = useState('me but')
   return (
     <div>
       <nav>
