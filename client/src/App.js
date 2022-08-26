@@ -9,13 +9,14 @@ function App() {
     <div className="nav-wrapper">
       <a href="#" className="brand-logo">Logo</a>
       <ul id="nav-mobile" className="right hide-on-med-and-down">
-        <li><a href="sass.html">{title}</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
+        <li><a href="sass.html">resume</a></li>
+        <li><a href="badges.html">about me</a></li>
+        <li><a href="collapsible.html">portfolio</a></li>
+        <li><a href="collapsible.html">contact</a></li>
       </ul>
     </div>
   </nav>
-  <p>this is the section were i will discribe myself with them gooood wordz</p>
+  <p>my name is jonah lindsley, im a 23 year old recent coding bootcamp graduate ready for the next challange in life</p>
   <footer className="page-footer">
           <div className="container">
             <div className="row">
