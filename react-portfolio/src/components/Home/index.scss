@@ -31,15 +31,17 @@
             color: black;
             font-size: 25px;
             position: absolute;
-            margin-top: -40px;
+            margin-top: 40px;
             margin-left: 20px;
             animation: fadeIn 1s 1.7s backwards;
             opacity: 0.6;
         }
         img {
-            height: 60px;
-            width: 60px;
-            border-radius: 30px;
+            height: 50px;
+            width: 50px;
+            padding-left: 19px;
+            right: -10%;
+
             opacity: 0;
             animation: rotateIn 1s linear both;
             animation-delay: 1.4s;
@@ -71,7 +73,7 @@
         white-space: nowrap;
 
         &:hover {
-            background: palevioletred;
+            background: #ff80f1;
             color: #333;
         }
     }
