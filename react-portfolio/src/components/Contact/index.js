@@ -25,7 +25,7 @@ const Contact = () => {
                     idx={15} />
                 </h1>
                 <p>
-                    im inteested in work, plz hire
+                    im inteested in work, plz hir
                 </p>
                 <div className='contact-form'>
                     <form>
