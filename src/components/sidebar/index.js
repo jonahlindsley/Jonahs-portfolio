@@ -1,10 +1,5 @@
 import './index.scss'
 import { Link, NavLink } from 'react-router-dom'
-import J from '../../assets/images/J.png'
-import O from '../../assets/images/O.png'
-import N from '../../assets/images/N.png'
-import A from '../../assets/images/A.png'
-import H from '../../assets/images/H.png'
 import LogoSubtitle from '../../assets/images/jonah.logo.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEnvelope, faHome, faCircleUser, faFolderOpen } from '@fortawesome/free-solid-svg-icons'
@@ -14,11 +9,9 @@ import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
 const Sidebar = () => (
     <div className='nav-bar'>
         <Link className='logo' to='/'>
-            <img className='jonah-logo' src={J} alt='logo' />
-            <img className='jonah-logo' src={O} alt='logo' />
-            <img className='jonah-logo' src={N} alt='logo' />
-            <img className='jonah-logo' src={A} alt='logo' />
-            <img className='jonah-logo' src={H} alt='logo' />
+           <h1>Jonah</h1>
+           <div>
+            <h1 className='pink' >Lindsley</h1></div>
         </Link>
         <nav>
             <NavLink exact="true" activeclassname="active" to="/">
