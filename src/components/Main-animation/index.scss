@@ -1,0 +1,209 @@
+
+/* sizes the graphic*/
+aside{
+    // transform: rotate(180deg);
+    right: 100px;
+    padding-top: 450px;
+    height: 300px;
+    position: absolute;
+    width: 30%;
+    justify-content: center;
+    animation: animationDown 30s linear 10s infinite normal forwards;
+}
+/* the primary animation specs*/
+.animation1{
+    height: 2.5%;
+    width: 20%;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-name: animation;
+    animation-direction: alternate;
+    position: relative;
+    animation-timing-function: ease-in-out;
+    border-radius: 8px;
+}
+
+/* sizes the upper part of the page*/
+#height{
+    height: 500px;
+    display: flex;
+}
+
+
+@keyframes animation{
+    from {left: 0px} to {left: 90%}
+    0% {background-color: rgb(5, 162, 162);}
+    10% {background-color: rgb(11, 196, 242);}   
+    40% {background-color: rgb(58, 103, 208);}
+    70% {background-color: rgb(219, 58, 115);}
+    100% {background-color: rgb(11, 242, 242);}
+} 
+
+@keyframes animationDown{
+from,
+to {
+    top: 1px
+}
+24%{
+    opacity: 1;
+}
+34%{
+    top: -700px;
+    opacity: 0;
+    transform: rotate(0deg);
+}
+35%{
+    top: -600px;
+    transform: rotate(180deg);
+    opacity: 0;
+}
+36%{
+    top: -700px;
+    opacity: 1;
+}
+72%{
+    opacity: 1;
+}
+82%{
+    top: 675px;
+}
+86%{
+    opacity: 0;
+    top: 750px;
+    transform: rotate(180deg);
+}
+87%{
+    transform: rotate(0deg);
+    top: 300px;
+}
+88%{
+opacity: 0;
+}
+89%{
+    opacity: 1;
+}
+100% {
+    transform: rotate(0deg);
+    top: -1px;
+}
+}
+#animation-1{
+    animation-delay: .3s;
+}
+#animation-2{
+    animation-delay: .6s;
+}
+#animation-3{
+        animation-delay: .9s;
+}
+#animation-4{
+    animation-delay: 1.2s;
+}
+#animation-5{
+    animation-delay: 1.5s;
+}
+#animation-6{
+    animation-delay: 1.8s;
+}
+#animation-7{
+    animation-delay: 2.1s;
+}
+#animation-8{
+    animation-delay: 2.4s;
+}
+#animation-9{
+    animation-delay: 2.7s;
+}
+#animation-10{
+    animation-delay: 3s;
+}
+#animation-11{
+    animation-delay: 3.3s;
+}
+#animation-12{
+    animation-delay: 3.6s;
+}
+#animation-13{
+    animation-delay: 3.9s;
+}
+#animation-14{
+    animation-delay: 4.2s;
+}
+#animation-15{
+    animation-delay: 4.5s;
+}
+#animation-16{
+    animation-delay: 4.8s;
+}
+#animation-17{
+    animation-delay: 5.1s;
+}
+#animation-18{
+    animation-delay: 5.4s;
+}
+#animation-19{
+    animation-delay: 5.7s;
+}
+#animation-20{
+    animation-delay: 6s;
+}
+#animation-21{
+    animation-delay: 6.3s;
+}
+#animation-22{
+    animation-delay: 6.6s;
+}
+#animation-23{
+    animation-delay: 6.9s;
+}
+#animation-24{
+    animation-delay: 7.2s;
+}
+#animation-25{
+    animation-delay: 7.5s;
+}
+#animation-26{
+    animation-delay: 7.8s;
+}
+#animation-27{
+    animation-delay: 8.1s;
+}
+#animation-28{
+    animation-delay: 8.4s;
+}
+#animation-29{
+    animation-delay: 8.7s;
+}
+#animation-30{
+    animation-delay: 9s;
+}
+#animation-31{
+    animation-delay: 9.3s;
+}
+#animation-32{
+    animation-delay: 9.6s;
+}
+#animation-33{
+    animation-delay: 9.9s;
+}
+#animation-34{
+    animation-delay: 10.2s;
+}
+#animation-35{
+    animation-delay: 10.5s;
+}
+#animation-36{
+    animation-delay: 10.8s;
+}
+#animation-37{
+    animation-delay: 11.1s;
+}
+#animation-38{
+    animation-delay: 11.4s;
+}
+#animation-39{
+    animation-delay: 11.7s;
+}
+#animation-40{
+    animation-delay: 12s;
+}

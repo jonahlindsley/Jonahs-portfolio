@@ -1,12 +1,27 @@
+
 .contact-form {
-    width: 100%;
+    width: 700px;
     margin-top: 20px;
     height: 300px;
+    .full{
+        grid-column: 1 / span 3;
+        grid-row: 2;
+    }
 
+    .full2{
+        grid-column: 1 / span 3;
+        grid-row: 3;
+    }
+    
+    #submit{
+        grid-column: 2 / span 3;
+        grid-row: 4;
+    }
     ul {
         height: 300px;
         padding: 0;
         margin: 0;
+        display: grid;
 
         li {
             padding: 0;
@@ -18,19 +33,21 @@
             opacity: 0;
             animation: fadeInUp 2s 2s;
             animation-fill-mode: forwards;
+
         }
 
         li.half {
            width: 49%;
-           margin-left: 2%;
-           float: left;
-           clear: none;
-
-
-           &:first-child {
             margin-left: 0;
-           }
+            grid-column: 1 / span 2;
+            grid-row: 1;
+           
         }
+        li.half2 {
+            width: 49%;
+            grid-column: 2 / span 5;
+            grid-row: 1;
+         }
     }
 
     input[type='text'],
@@ -40,7 +57,7 @@
         background: #115173;
         height: 50px;
         font-size: 16px;
-        color: aliceblue;
+        color: #fefefe!important;
         padding: 0 20px;
         box-sizing: border-box;
     }
@@ -55,18 +72,74 @@
         padding: 20px;
         min-height: 150px;
         box-sizing: border-box;
-
     }
 
     .flat-button {
         color:  #ff80f1;
         background: 0 0;
-        font: 11px;
+        font-size: 18px;
+        font-weight: 700;
         letter-spacing: 3px;
         text-decoration: none;
         padding: 8px 10px;
-        border: 1px solid  #ff80f1;
+        border: 2px solid #ff80f1;
         border-radius: 5px;
-        float: right;
+
+        &:hover{
+            color:  #115173;
+            background: #ff80f1;
+        }
     }
 }
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2;  /* Sit on top */
+    left: 0;
+    top: 0;
+    padding: 0 33%;
+    width: 33%; /* Full width */
+    height: 100%; /* Full height */
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+/* Modal Header */
+.modal-header {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+  /* Modal Body */
+  .modal-body {padding: 2px 16px;}
+  
+  /* Modal Footer */
+  .modal-footer {
+    padding: 2px 16px;
+    background-color: #5cb85c;
+    color: white;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    border: 1px solid #888;
+    width: 80%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    animation-name: animatetop;
+    animation-duration: 0.4s
+  }
+  
+  /* Add Animation */
+  @keyframes animatetop {
+    from {top: -300px; opacity: 0}
+    to {top: 0; opacity: 1}
+  }
