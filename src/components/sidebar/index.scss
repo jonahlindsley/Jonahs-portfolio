@@ -150,3 +150,182 @@
             }
         }
     }
+
+
+
+
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    @media only screen and (max-width: 430px) {
+        .nav-bar {
+            background: #0f0f0f;
+            width: 100%;
+            height: 50px;
+            position: sticky; top: 0;
+            min-height: 50px;
+            z-index: 1;
+
+            .hide{
+                display: none;
+            }
+        
+        
+            .logo {
+                display: flex;
+                padding: 0px 0px;
+                transform: rotate(0deg);
+                text-decoration: none;
+                color: #47a2e3;
+                font-family: 'coolvetica';
+                font-size: 20px;
+                line-height: 25%;
+                margin: 0;
+                letter-spacing: 3px;
+        
+                .pink {
+                    color: #0c91f0;
+                    margin-right: 85px;
+                    
+                }
+        
+        
+        
+                img {
+                    display: block;
+                    margin: 8px auto;
+                    width: 74px;
+        
+                    &.jonah-logo {
+                        height: 60px;
+                        margin: 0px 5px;
+        
+        
+                    }
+        
+                }
+            }
+        
+            nav {
+                display: flex;
+                text-align: center;
+                position: sticky;
+                height: 50px;
+                top: 0;
+                margin: 7px 4%;
+                width: 100%;
+                
+                svg{
+                    height: 37px;
+                    width: 37px;
+
+                }
+        
+                a {
+                    font-size: 12px;
+                    color: #ca5fd6;
+                    display: flex;
+                    line-height: 1px;
+                    height: 50px;
+                    margin: 0 7%;
+                    position: relative;
+                    text-decoration: none;
+        
+                    // i {
+                    //     // transition: all 0.3s ease-out;
+                    // }
+        
+                    // &:hover {
+                    //     color: palevioletred;
+        
+                    //     svg {
+                    //         opacity: 0;
+                    //     }
+        
+                    //     &:after {
+                    //         opacity: 1;
+                    //     }
+                    // }
+        
+                    &:after {
+                        content: '';
+                        font-size: 9px;
+                        letter-spacing: 2px;
+                        position: absolute;
+                        bottom: 0;
+                        display: block;
+                        width: 100%;
+                        text-align: center;
+                        opacity: 0;
+                        transition: all 0.3s ease-out;
+                    }
+        
+                    &:first-child {
+                        &::after {
+                            content: 'HOME';
+                        }
+        
+                    }
+        
+                }
+        
+                a.about-link {
+                    &:after {
+                        content: 'ABOUT'
+                    }
+                }
+        
+                a.contact-link {
+                    &:after {
+                        content: 'CONTACT'
+                    }
+                }
+        
+                a.portfolio-link {
+                    &:after {
+                        content: 'PORTFOLIO'
+                    }
+                }
+        
+                a.active {
+                    svg {
+                        color: palevioletred;
+                    }
+                }
+            }
+        
+                ul {
+                    // position: absolute;
+                    bottom: 5px;
+                    // width: 100%;
+                    display: none;
+                    padding: 0;
+                    text-align: center;
+                    margin: 0;
+                }
+        
+                li {
+                    margin: 2% 4%;
+                    a {
+                        padding: 0px 0;
+                        // grid-auto-flow: row;
+                        // display: block;
+                        font-size: 23px;
+                        line-height: 16px;
+                        
+                        &:hover svg {
+                            color: palevioletred;
+                        }
+                    }
+                }
+            }
+        
+    }

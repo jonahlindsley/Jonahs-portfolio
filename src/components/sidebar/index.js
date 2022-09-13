@@ -1,16 +1,16 @@
 import './index.scss'
 import { Link, NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faEnvelope, faHome, faCircleUser, faFolderOpen } from '@fortawesome/free-solid-svg-icons'
 import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
+import { faEnvelope, faHome, faCircleUser, faFolderOpen } from '@fortawesome/free-solid-svg-icons'
 
 
 const Sidebar = () => (
     <div className='nav-bar'>
         <Link className='logo' to='/react-portfolio'>
-           <h1>Jonah</h1>
+           <h1 className='hide'>Jonah</h1>
            <div>
-            <h1 className='pink' >Lindsley</h1></div>
+            <h1 className='pink hide' >Lindsley</h1></div>
         </Link>
         <nav>
             <NavLink exact="true" activeclassname="active" to="/react-portfolio">

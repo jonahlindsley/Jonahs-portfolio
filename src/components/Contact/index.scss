@@ -1,22 +1,23 @@
-
 .contact-form {
     width: 700px;
     margin-top: 20px;
     height: 300px;
-    .full{
+
+    .full {
         grid-column: 1 / span 3;
         grid-row: 2;
     }
 
-    .full2{
+    .full2 {
         grid-column: 1 / span 3;
         grid-row: 3;
     }
-    
-    #submit{
+
+    #submit {
         grid-column: 2 / span 3;
         grid-row: 4;
     }
+
     ul {
         height: 300px;
         padding: 0;
@@ -37,32 +38,33 @@
         }
 
         li.half {
-           width: 49%;
+            width: 49%;
             margin-left: 0;
             grid-column: 1 / span 2;
             grid-row: 1;
-           
+
         }
+
         li.half2 {
             width: 49%;
             grid-column: 2 / span 5;
             grid-row: 1;
-         }
+        }
     }
 
     input[type='text'],
-    input[type='email']{
+    input[type='email'] {
         width: 100%;
         border: 0;
         background: #115173;
         height: 50px;
         font-size: 16px;
-        color: #fefefe!important;
+        color: #fefefe !important;
         padding: 0 20px;
         box-sizing: border-box;
     }
 
-    textarea{
+    textarea {
         width: 100%;
         border: 0;
         background: #115173;
@@ -75,7 +77,7 @@
     }
 
     .flat-button {
-        color:  #ff80f1;
+        color: #ff80f1;
         background: 0 0;
         font-size: 18px;
         font-weight: 700;
@@ -85,61 +87,225 @@
         border: 2px solid #ff80f1;
         border-radius: 5px;
 
-        &:hover{
-            color:  #115173;
+        &:hover {
+            color: #115173;
             background: #ff80f1;
         }
     }
 }
+
 .modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 2;  /* Sit on top */
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 2;
+    /* Sit on top */
     left: 0;
     top: 0;
     padding: 0 33%;
-    width: 33%; /* Full width */
-    height: 100%; /* Full height */
-  }
-  
-  .close:hover,
-  .close:focus {
+    width: 33%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+}
+
+.close:hover,
+.close:focus {
     color: black;
     text-decoration: none;
     cursor: pointer;
-  }
+}
+
 /* Modal Header */
 .modal-header {
     padding: 2px 16px;
     background-color: #5cb85c;
     color: white;
-  }
-  
-  /* Modal Body */
-  .modal-body {padding: 2px 16px;}
-  
-  /* Modal Footer */
-  .modal-footer {
+}
+
+/* Modal Body */
+.modal-body {
+    padding: 2px 16px;
+}
+
+/* Modal Footer */
+.modal-footer {
     padding: 2px 16px;
     background-color: #5cb85c;
     color: white;
-  }
-  
-  /* Modal Content */
-  .modal-content {
+}
+
+/* Modal Content */
+.modal-content {
     position: relative;
     background-color: #fefefe;
     margin: auto;
     padding: 0;
     border: 1px solid #888;
     width: 80%;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     animation-name: animatetop;
     animation-duration: 0.4s
-  }
-  
-  /* Add Animation */
-  @keyframes animatetop {
-    from {top: -300px; opacity: 0}
-    to {top: 0; opacity: 1}
-  }
+}
+
+/* Add Animation */
+@keyframes animatetop {
+    from {
+        top: -300px;
+        opacity: 0
+    }
+
+    to {
+        top: 0;
+        opacity: 1
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 430px) {
+
+    .contact-form {
+        width: 550px;
+        margin-top: 20px;
+        height: 300px;
+        
+            li.half {
+                width: 49%;
+                margin-left: 0;
+                grid-column: 1 / span 2;
+                grid-row: 1;
+
+            }
+
+            li.half2 {
+                width: 49%;
+                grid-column: 2 / span 5;
+                grid-row: 1;
+                margin-left: 5px;
+            }
+
+        input[type='text'],
+        input[type='email'] {
+            width: 100%;
+            border: 0;
+            background: #115173;
+            height: 50px;
+            font-size: 16px;
+            color: #fefefe !important;
+            padding: 0 5px;
+
+            box-sizing: border-box;
+        }
+    }
+
+    .modal {
+        display: none;
+        /* Hidden by default */
+        position: fixed;
+        /* Stay in place */
+        z-index: 2;
+        /* Sit on top */
+        left: 0;
+        top: 0;
+        padding: 0;
+        width: 70%;
+        /* Full width */
+        height: 100%;
+        /* Full height */
+    }
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    /* Modal Header */
+    .modal-header {
+        padding: 2px 22%;
+        background-color: #5cb85c;
+        color: white;
+    }
+
+    /* Modal Body */
+    .modal-body {
+        padding: 2px 6px;
+    }
+
+    /* Modal Footer */
+    .modal-footer {
+        padding: 2px 16px;
+        background-color: #5cb85c;
+        color: white;
+    }
+
+    /* Modal Content */
+    .modal-content {
+        position: relative;
+        background-color: #fefefe;
+        margin: auto;
+        padding: 0;
+        border: 1px solid #888;
+        width: 90%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        animation-name: animatetop;
+        animation-duration: 0.4s
+    }
+
+    .links {
+        position: relative;
+        bottom: 5px;
+        // width: 100%;
+        padding: 0;
+        text-align: center;
+        margin: 25% 10%;
+        display: flex;
+        text-decoration: none;
+        
+
+        svg{
+            height: 75px;
+            text-decoration: none;
+            color: #5cb85c;
+        }
+        li {
+            margin: 2% 15%;
+            text-decoration: none;
+        
+            a {
+                padding: 0px 0;
+                font-size: 23px;
+                line-height: 16px;
+            }
+        }
+    }
+
+    /* Add Animation */
+    @keyframes animatetop {
+        from {
+            top: -300px;
+            opacity: 0
+        }
+
+        to {
+            top: 0;
+            opacity: 1
+        }
+    }
+}

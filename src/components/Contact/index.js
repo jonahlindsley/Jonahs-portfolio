@@ -2,7 +2,8 @@ import './index.scss';
 import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimatedLetters';
 import {useState, useEffect} from 'react'
-
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
 
 const Contact = () => {
 
@@ -62,7 +63,7 @@ span.onclick = function() {
                 </p>
                 <div className='contact-form' >
                     <form id='contact-form'>
-                        <ul>
+                        <ul className='ul'>
                         <input type="hidden" name="contact_number" />
                             <li className='half'>
                                 <input type="text" name='user_name' placeholder='Name' required />
@@ -83,6 +84,26 @@ span.onclick = function() {
                         </ul>
                     </form>
                 </div>
+                <ul className='links'>
+            <li>
+                <a 
+                target="blank" 
+                rel="noreferrer" 
+                href='https://www.linkedin.com/in/jonah-lindsley-b66b60241/' 
+                >
+                    <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+                </a>
+            </li>
+            <li>
+                <a 
+                target="blank" 
+                rel="noreferrer" 
+                href='https://github.com/jonahlindsley' 
+                >
+                    <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+                </a>
+            </li>
+        </ul>
             </div>
         </div>
         <Loader type='pacman' />

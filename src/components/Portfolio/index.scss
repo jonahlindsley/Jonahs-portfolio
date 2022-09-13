@@ -64,3 +64,92 @@ p{
         grid-row: 2;
         display: flex;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    @media only screen and (max-width: 430px) {
+        .link {
+            text-decoration: none;
+            color: rgb(245, 206, 197);
+            font-size: 20px;
+            font-weight: 500;
+        
+            &:hover {
+                cursor: pointer;
+            }
+        }
+        
+        p{
+            width: auto;
+            color: white;
+        }
+        
+        .images {
+            height: 300px;
+            width: 300px;
+            border-radius: 75px;
+            position: relative;
+            margin: 20px 10px 70px 10px;
+        }
+        
+        .portfolio-zone{
+            position: absolute;
+            left: 10%;
+            top: 55%;
+            transform: translateY(-50%);
+            width: 88%;
+            // vertical-align: middle;
+            max-height: 90%;
+            display: grid;
+            grid-template-columns: auto;
+        }
+        
+        
+            .passGen {
+                // grid-column: 1 / span 2;
+                grid-row: 1;
+                display: flex;
+                flex-direction: column;
+                p{
+                    padding-top: 50px;
+                }
+            }
+
+            .teamGen {
+                // grid-column: 2 / span 3;
+                grid-row: 3;
+                display: flex;
+                flex-direction: column;
+                p{
+                    padding-top: 30px;
+                }
+            }
+
+            .quiz {
+                // grid-column: 1 / span 2;
+                grid-row: 5;
+                display: flex;
+                flex-direction: column;
+            }
+
+            .forcastApp {
+                // grid-column: 2 / span 3;
+                grid-row: 7;
+                display: flex;
+                flex-direction: column;
+            }
+
+        
+        
+    }

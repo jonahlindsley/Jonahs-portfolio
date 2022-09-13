@@ -207,3 +207,10 @@ opacity: 0;
 #animation-40{
     animation-delay: 12s;
 }
+
+@media only screen and (max-width: 430px) {
+    #height{
+        height: 500px;
+        display: none;
+    }
+}

@@ -34,3 +34,48 @@ svg {
     stroke: black;
     stroke-width: 10;
 }
+
+
+
+
+
+
+
+@media only screen and (max-width: 430px) {
+    .logo-container {
+        z-index: 0;
+        width: 170px;
+        height: 170px;
+        position: absolute;
+        top: 0;
+        right: 7%;
+        bottom: 0;
+        left: auto;
+        margin-top: 20px;
+        opacity: 1;
+    
+    svg {
+        width: 100%;
+        height: auto;
+        bottom: 0;
+        transform: rotateZ(30deg) !important;
+    }
+    .solid-logo {
+        position: absolute;
+        top: auto;
+        right: auto;
+        bottom: auto;
+        left: 0;
+        margin: auto;
+        width: 100%;
+        opacity: 1;
+        transform: rotateZ(30deg);
+        z-index: 1;
+    }
+    }
+    
+    .svg-container {
+        stroke: black;
+        stroke-width: 10;
+    }
+}

@@ -20,12 +20,13 @@ const Home = () => {
         <>
         <div className="container home-page">
             <div className="text-zone">
-        <h1>
+        <h1 className='half-width'>
         <AnimatedLetters letterClass={letterClass} 
         strArray={nameArray}
         idx={15}
         />
-        <br />
+        </h1>
+        <h1 className='full-width'>
         <AnimatedLetters letterClass={letterClass} 
         strArray={jobArray}
         idx={22}
