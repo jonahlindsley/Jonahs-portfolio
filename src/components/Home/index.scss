@@ -1,3 +1,5 @@
+
+
 .home-page {
     .text-zone {
         position: absolute;
@@ -7,13 +9,8 @@
         width: 40%;
         max-height: 90%;
     }
-    h1 {
-        color: aliceblue;
-        font-size: 53px;
-        margin: 0;
-        font-family: 'coolvetica';
-        font-weight: 500;
 
+    .half-width{
         &::before {
             content: '<h1>';
             font-family: 'La Belle Aurore';
@@ -36,6 +33,17 @@
             animation: fadeIn 1s 1.7s backwards;
             opacity: 0.6;
         }
+    }
+
+ 
+    h1 {
+        color: aliceblue;
+        font-size: 53px;
+        margin: 0;
+        font-family: 'coolvetica';
+        font-weight: 500;
+
+
         img {
             height: 50px;
             width: 50px;
@@ -99,7 +107,7 @@
             left: 10%;
             top: 43%;
             transform: translateY(-50%);
-            width: 100%;
+            width: 90%;
             max-height: 90%;
             
         }

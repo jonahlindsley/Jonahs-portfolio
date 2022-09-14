@@ -2,6 +2,7 @@
 html {
   font-size: 62.3%;
   height: 100%;
+  width: 100%;
   /* display: flex; */
 }
 
@@ -22,6 +23,7 @@ html {
   font-size: 62.3%;
   height: 0%;
   /* display: flex; */
+  overflow: hidden;
 }
 
 body {
@@ -29,7 +31,7 @@ body {
   font: 300 11px/1.4 'Helvetica Neue', sans-serif;
   color: #444;
   background: #0a5e9a;
-  overflow: visible;
+  overflow: hidden;
   /* display: flex; */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;

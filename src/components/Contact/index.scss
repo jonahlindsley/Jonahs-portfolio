@@ -149,6 +149,10 @@
     animation-duration: 0.4s
 }
 
+.links{
+    display: none;
+}
+
 /* Add Animation */
 @keyframes animatetop {
     from {
@@ -179,22 +183,70 @@
 
 @media only screen and (max-width: 430px) {
 
+
     .contact-form {
-        width: 550px;
+        width: 100%;
         margin-top: 20px;
         height: 300px;
-        
+        overflow: hidden;
+        .flat-button {
+           margin-left: 30%;
+
+        }
+        .full {
+            grid-column: 1 / span 4;
+            grid-row: 2;
+        }
+    
+        .full2 {
+            grid-column: 1 ;
+            grid-row: 3;
+        }
+    
+
+    
+    ul {
+        height: 300px;
+        padding: 0;
+        margin: 0;
+        display: grid;
+
+        textarea {
+            width: 100%;
+            border: 0;
+            background: #115173;
+            height: 50px;
+            font-size: 16px;
+            color: aliceblue;
+            padding: 20px;
+            min-height: 150px;
+            box-sizing: border-box;
+        }
+    
+        li {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            margin-bottom: 10px;
+            display: block;
+            position: relative;
+            opacity: 0;
+            animation: fadeInUp 2s 2s;
+            animation-fill-mode: forwards;
+
+        }
+    
             li.half {
-                width: 49%;
-                margin-left: 0;
+                width: 100%;
+                margin-left: 0 ;
                 grid-column: 1 / span 2;
                 grid-row: 1;
 
             }
 
             li.half2 {
-                width: 49%;
-                grid-column: 2 / span 5;
+                width: 100%;
+                grid-column: 3 / span 2;
                 grid-row: 1;
                 margin-left: 5px;
             }
@@ -212,7 +264,7 @@
             box-sizing: border-box;
         }
     }
-
+    }
     .modal {
         display: none;
         /* Hidden by default */
@@ -276,17 +328,14 @@
         text-align: center;
         margin: 25% 10%;
         display: flex;
-        text-decoration: none;
         
-
         svg{
             height: 75px;
-            text-decoration: none;
             color: #5cb85c;
         }
         li {
             margin: 2% 15%;
-            text-decoration: none;
+            list-style-type: none;
         
             a {
                 padding: 0px 0;

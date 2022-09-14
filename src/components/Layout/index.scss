@@ -180,7 +180,49 @@
         animation: fadeIn 1s forwards;
         animation-delay: 1s;
     }
+ 
+    .about-page{
+        .text-zone{
+            h1{
+                display: flex;
+                left: 0!important;
+                justify-content: center;
+                &::before {
+                    content: '<h1>';
+                    font-family: 'La Belle Aurore';
+                    font-size: 18px;
+                    position: absolute;
+                    margin-top: -10px;
+                    color: black;
+                    line-height: 18px;
+                    opacity: 0.8;
+                    left: 30px;
+                }
     
+                &::after{
+                    content: '</h1>';
+                    font-family: 'La Belle Aurore';
+                    font-size: 18px;
+                    line-height: 18px;
+                    position: absolute;
+                    left: 40px;
+                    bottom: -20px;
+                    margin-left: 20px;
+                    color: black;
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+    .contact-page{
+        .text-zone{
+            h1{
+                left: 0!important;
+                display: flex;
+                margin-left: 22%;
+            }
+        }
+    }
     .about-page,
     .contact-page,
     .portfolio-page {

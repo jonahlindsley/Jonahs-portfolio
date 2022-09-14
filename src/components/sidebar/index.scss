@@ -173,6 +173,8 @@
             position: sticky; top: 0;
             min-height: 50px;
             z-index: 1;
+            padding: 7px;
+            // padding-top: 15px;
 
             .hide{
                 display: none;
@@ -219,10 +221,9 @@
                 text-align: center;
                 position: sticky;
                 height: 50px;
-                top: 0;
-                margin: 7px 4%;
+                top: 10px;
                 width: 100%;
-                
+                // padding: 2px;
                 svg{
                     height: 37px;
                     width: 37px;
@@ -310,6 +311,7 @@
                     padding: 0;
                     text-align: center;
                     margin: 0;
+                    text-decoration: none;
                 }
         
                 li {
