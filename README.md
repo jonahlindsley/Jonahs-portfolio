@@ -4,7 +4,7 @@
   ## Discription 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   This is my personal portfolio website, I made it using react, sass, and Javascript. It features sections about me, my work and all the ways to get in contact with me (also bunch of css animations just for fun)   
-  ![deployed portfolio site](./react-portfolio/src/assets/images/deployed-portfolio.png)
+  ![deployed portfolio site](./src/assets/images/deployed-portfolio.png)
   ***
   ## table of contents
   * [licence](#licence)
