@@ -33,8 +33,12 @@
         })();
     </script>
     <script type="text/javascript">
-        window.onload = function() {
-            document.getElementById('contact-form').addEventListener('submit', function(event) {
+        window.onsubmit = function(event) {
+          // const contact = document.getElementById('contact')
+          // if (contact) {
+            console.log('this paart is running')
+            event.preventDefault();
+          document.getElementById('contact-form').addEventListener('submit', function(event) {
               var frm = document.getElementById('contact-form')
               event.preventDefault();
                 this.contact_number.value = Math.random() * 100000 | 0;
@@ -48,7 +52,8 @@
                         console.log('FAILED...', error);
                     });
             });
-        }
+          }
+        // }
     </script>
   </head>
   <body>

@@ -1,3 +1,6 @@
+body{
+    // overflow: hidden;
+}
 .link {
     text-decoration: none;
     color: rgb(245, 206, 197);
@@ -17,7 +20,7 @@ p{
 .images {
     height: 300px;
     width: 300px;
-    border-radius: 25px;
+    border-radius: 95px;
     position: relative;
     margin: 25px 10px;
 }

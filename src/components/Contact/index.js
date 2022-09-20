@@ -16,11 +16,6 @@ const Contact = () => {
 
    // Get the modal
 let modal = document.getElementById("myModal");
-// Get the <span> element that closes the modal
-let span = document.getElementsByClassName("close");
-span.onclick = function() {
-    modal.style.display = "none";
-  }
   
   // When the user clicks anywhere outside of the modal, close it
   window.onclick = function(event) {
@@ -36,10 +31,9 @@ span.onclick = function() {
 {/* <!-- Modal content --> */}
 <div className="modal-content">
 <div className="modal-header">
-  <span className="close"></span>
   <h2>Email sent successfully!</h2>
 </div>
-<div className="modal-body">
+<div id='contact' className="modal-body">
   <p>I will get back to you shortly</p>
   <p>Thank you.</p>
 </div>
@@ -84,27 +78,35 @@ span.onclick = function() {
                         </ul>
                     </form>
                 </div>
+            </div>
                 <ul className='links'>
+                    <li>
+                    <h2 className='email'><a href="mailto:jonahlindsley@yahoo.com"> jonahlindsley@yahoo.com</a></h2>
+                    </li>
             <li>
+                <h2>Linkedin</h2>
                 <a 
                 target="blank" 
                 rel="noreferrer" 
                 href='https://www.linkedin.com/in/jonah-lindsley-b66b60241/' 
                 >
-                    <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+                    <FontAwesomeIcon icon={faLinkedin} color="white" />
                 </a>
             </li>
             <li>
+                <h2>Github</h2>
                 <a 
                 target="blank" 
                 rel="noreferrer" 
                 href='https://github.com/jonahlindsley' 
                 >
-                    <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+                    <FontAwesomeIcon icon={faGithub} color="white" />
                 </a>
             </li>
+            <li>
+                    <h2 className='email'><a target='blank' href="https://docs.google.com/document/d/1xAPH4eRIzyqjOfj-WEgIjCRt61U42xL12LAWnUdzV40/edit"> Resume</a></h2>
+                    </li>
         </ul>
-            </div>
         </div>
         <Loader type='pacman' />
         
