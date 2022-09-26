@@ -12,7 +12,7 @@ function App() {
 <BrowserRouter>
 <Layout/>
 <Routes>
-    <Route exact path='/react-portfolio' element={<Home />} />
+    <Route exact path='/Jonahs-portfolio' element={<Home />} />
     <Route exact path='/about' element={<About />} />
     <Route exact path='/contact' element={<Contact />} />
     <Route exact path='/portfolio' element={<Portfolio />} />

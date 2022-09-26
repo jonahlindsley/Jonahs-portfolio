@@ -7,23 +7,23 @@ import { faEnvelope, faHome, faCircleUser, faFolderOpen } from '@fortawesome/fre
 
 const Sidebar = () => (
     <div className='nav-bar'>
-        <Link className='logo' to='/react-portfolio'>
+        <Link className='logo' to='/Jonahs-portfolio'>
            <h1 className='hide'>Jonah</h1>
            <div>
             <h1 className='pink hide' >Lindsley</h1></div>
         </Link>
         <nav>
-            <NavLink exact="true" activeclassname="active" to="/react-portfolio">
-                <FontAwesomeIcon icon={faHome} color="#4d4d4e"/>
+            <NavLink exact="true" activeclassname="active" to="/Jonahs-portfolio">
+                <FontAwesomeIcon icon={faHome} color="#72baed"/>
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="about-link" to="/about">
-                <FontAwesomeIcon icon={faCircleUser} color="#4d4d4e"/>
+                <FontAwesomeIcon icon={faCircleUser} color="#72baed"/>
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="contact-link" to="/contact">
-                <FontAwesomeIcon icon={faEnvelope} color="#4d4d4e"/>
+                <FontAwesomeIcon icon={faEnvelope} color="#72baed"/>
             </NavLink>
             <NavLink exact="true" activeclassname="active" className="portfolio-link" to="/portfolio">
-                <FontAwesomeIcon icon={faFolderOpen} color="#4d4d4e"/>
+                <FontAwesomeIcon icon={faFolderOpen} color="#72baed"/>
             </NavLink>
         </nav>
         <ul>
@@ -33,7 +33,7 @@ const Sidebar = () => (
                 rel="noreferrer" 
                 href='https://www.linkedin.com/in/jonah-lindsley-b66b60241/' 
                 >
-                    <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
+                    <FontAwesomeIcon icon={faLinkedin} color="#72baed" />
                 </a>
             </li>
             <li>
@@ -42,7 +42,7 @@ const Sidebar = () => (
                 rel="noreferrer" 
                 href='https://github.com/jonahlindsley' 
                 >
-                    <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+                    <FontAwesomeIcon icon={faGithub} color="#72baed" />
                 </a>
             </li>
         </ul>

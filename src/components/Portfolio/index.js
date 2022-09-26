@@ -15,7 +15,7 @@ function Portfolio() {
                     <div className='passGen'>
                         <p>This is a simple website that creates a strong random password, users can choose how long they want he password to be, is they want numbers, special characters, upper or lower case letters and the site will provide a new randowm password that meets the provided constraints. 
                         <br/>
-                        <a target="_blank" className='link' href='https://jonahlindsley.github.io/randomPassword/'> Link to the random password generator </a>
+                        <a target="_blank" className='link' href='https://jonahlindsley.github.io/random-Password-generator/'> Link to the random password generator </a>
                         </p>
                         <img className='images passGenI' src={passGen}/>
                     </div>
