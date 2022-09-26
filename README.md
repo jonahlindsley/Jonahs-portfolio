@@ -15,7 +15,7 @@
   * [questions](#questions)
   ***
   ## the deployed website  
-  [click to view deployed website](https://jonahlindsley.github.io/react-portfolio)
+  [click to view deployed website](https://jonahlindsley.github.io/Jonahs-portfolio)
   ***
   ## licence 
    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
