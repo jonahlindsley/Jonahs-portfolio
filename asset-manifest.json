@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Jonahs-portfolio/static/css/main.d7f68d11.css",
-    "main.js": "/Jonahs-portfolio/static/js/main.d8831b59.js",
+    "main.css": "/Jonahs-portfolio/static/css/main.84561273.css",
+    "main.js": "/Jonahs-portfolio/static/js/main.105eddc5.js",
     "static/js/787.c4e7f8f9.chunk.js": "/Jonahs-portfolio/static/js/787.c4e7f8f9.chunk.js",
     "static/media/weatherApp.png": "/Jonahs-portfolio/static/media/weatherApp.f3423bdbb48ca1bb9d72.png",
     "static/media/passScreenshot.jpeg": "/Jonahs-portfolio/static/media/passScreenshot.3fc64f983ff98da85f34.jpeg",
@@ -12,12 +12,12 @@
     "static/media/LaBelleAurore.woff2": "/Jonahs-portfolio/static/media/LaBelleAurore.a83c1c58fd7e43972e4a.woff2",
     "static/media/CoolveticaRg-Regular.woff2": "/Jonahs-portfolio/static/media/CoolveticaRg-Regular.7d1f3b1dd46ad6557a17.woff2",
     "index.html": "/Jonahs-portfolio/index.html",
-    "main.d7f68d11.css.map": "/Jonahs-portfolio/static/css/main.d7f68d11.css.map",
-    "main.d8831b59.js.map": "/Jonahs-portfolio/static/js/main.d8831b59.js.map",
+    "main.84561273.css.map": "/Jonahs-portfolio/static/css/main.84561273.css.map",
+    "main.105eddc5.js.map": "/Jonahs-portfolio/static/js/main.105eddc5.js.map",
     "787.c4e7f8f9.chunk.js.map": "/Jonahs-portfolio/static/js/787.c4e7f8f9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d7f68d11.css",
-    "static/js/main.d8831b59.js"
+    "static/css/main.84561273.css",
+    "static/js/main.105eddc5.js"
   ]
 }
